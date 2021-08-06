@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">imageviews</string>
+    <string name="cart">Cart</string>
+    <string name="shop">Shop</string>
+    <string name="profile">Profile</string>
+    <string name="welcome_to_moda_store">Welcome to MODA Store</string>
+    <string name="search">Search</string>
+    <string name="mujer">Mujer</string>
+</resources>
