@@ -57,7 +57,7 @@ public class TravelLocationsAdapter extends RecyclerView.Adapter<TravelLocations
         }
 
         void setLocationData(TravelLocation travelLocation){
-            Picasso.get().load(travelLocation.imageUrl).into(kbvLocation);
+            Picasso.get().load(travelLocation.image).into(kbvLocation);
             textTitle.setText(travelLocation.title);
             textLocation.setText(travelLocation.location);
             textStarRating.setText(String.valueOf(travelLocation.starRating));
