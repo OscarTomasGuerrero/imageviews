@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         travelLocationEiffelTower.title = "Brazil";
         travelLocationEiffelTower.location = "Cataratas do Iguaçu";
         travelLocationEiffelTower.starRating = 4.2f;
-        travelLocations.add(travelLocationTajMahal);
+        travelLocations.add(travelLocationFozDoIguacu);
 
         locationsViewPager.setAdapter(new TravelLocationsAdapter(travelLocations));
 
