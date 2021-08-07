@@ -26,31 +26,31 @@ public class MainActivity extends AppCompatActivity {
         List<TravelLocation> travelLocations = new ArrayList<>();
 
         TravelLocation travelLocationEiffelTower = new TravelLocation();
-        travelLocationEiffelTower.image = "@drawable/image_torreeiffel.jpg";
+        travelLocationEiffelTower.image = R.drawable.image_torreeiffel;
         travelLocationEiffelTower.title = "France";
         travelLocationEiffelTower.location = "Eiffel Tower";
         travelLocationEiffelTower.starRating = 4.8f;
         travelLocations.add(travelLocationEiffelTower);
 
         TravelLocation travelLocationMountainView = new TravelLocation();
-        travelLocationEiffelTower.image = "https://www.travelmanagers.com.au/wp-content/uploads/2012/08/AdobeStock_254529936_Railroad-to-Denali-National-Park-Alaska_750x500.jpg";
-        travelLocationEiffelTower.title = "Australia";
-        travelLocationEiffelTower.location = "Mountain View";
-        travelLocationEiffelTower.starRating = 4.5f;
+        travelLocationMountainView.image = R.drawable.image_mountainview;
+        travelLocationMountainView.title = "Australia";
+        travelLocationMountainView.location = "Mountain View";
+        travelLocationMountainView.starRating = 4.5f;
         travelLocations.add(travelLocationMountainView);
 
         TravelLocation travelLocationTajMahal = new TravelLocation();
-        travelLocationEiffelTower.image = "https://upload.wikimedia.org/wikipedia/commons/e/ee/%C4%90%E1%BB%81n_Taj_Mahal.jpg";
-        travelLocationEiffelTower.title = "India";
-        travelLocationEiffelTower.location = "Taj Mahal";
-        travelLocationEiffelTower.starRating = 4.3f;
+        travelLocationTajMahal.image = R.drawable.image_tajmahal;
+        travelLocationTajMahal.title = "India";
+        travelLocationTajMahal.location = "Taj Mahal";
+        travelLocationTajMahal.starRating = 4.3f;
         travelLocations.add(travelLocationTajMahal);
 
         TravelLocation travelLocationFozDoIguacu = new TravelLocation();
-        travelLocationEiffelTower.image = "https://upload.wikimedia.org/wikipedia/commons/9/97/Foz_de_Igua%C3%A7u_27_Panorama_Nov_2005.jpg";
-        travelLocationEiffelTower.title = "Brazil";
-        travelLocationEiffelTower.location = "Cataratas do Iguaçu";
-        travelLocationEiffelTower.starRating = 4.2f;
+        travelLocationFozDoIguacu.image = R.drawable.image_fozdoiguacu;
+        travelLocationFozDoIguacu.title = "Brazil";
+        travelLocationFozDoIguacu.location = "Cataratas do Iguaçu";
+        travelLocationFozDoIguacu.starRating = 4.2f;
         travelLocations.add(travelLocationFozDoIguacu);
 
         locationsViewPager.setAdapter(new TravelLocationsAdapter(travelLocations));

@@ -10,7 +10,7 @@
         android:layout_height="24dp"
         android:layout_marginTop="16dp"
         android:layout_marginStart="16dp"
-        app:cardElevation="8dp"
+        app:cardElevation="0dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -29,24 +29,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
-        android:text="@string/welcome_to_moda_store"
+        android:text="@string/bienvenidos_a_viajesmx"
         android:textColor="#212121"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/cardLogo"
         app:layout_constraintStart_toEndOf="@+id/cardLogo"
-        app:layout_constraintEnd_toStartOf="@+id/button"/>
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:text="@string/search"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="@+id/textHello"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textHello" />
+        app:layout_constraintEnd_toEndOf="parent"/>
 
     <TextView
         android:id="@+id/textWomenCategory"
@@ -55,7 +44,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
-        android:text="@string/mujer"
+        android:text="@string/viaja_por_el_mundo"
         android:textColor="#212121"
         android:textSize="32sp"
         android:textAlignment="center"
